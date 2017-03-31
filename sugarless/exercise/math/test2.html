@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>菱形</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+<body>
+<h1>rhombus</h1>
+<input type="text" style="border:0px;border-bottom: 1px solid black" id="num">
+<button onclick="start();">start</button><br/>
+<div id="" style="margin-top: 15px">
+    <span>运行结果：<span style="color:red" id="warn"></span></span><br/>
+    <!--<table id="result"></table>-->
+    <div id="result"></div>
+</div>
+<style>
+    input{
+        outline-style: none;
+    }
+</style>
+</body>
+<script>
+    function start(){
+        $('#result').children().remove();
+        var num = $('#num').val();
+//            makeTable(num);
+        var reg = /[13579]$/;
+        $('#warn').html('');
+        if(!reg.test(num)){
+            $('#warn').html('请输入奇数')
+            return;
+        }
+        if(num>235){
+            $('#warn').html('超过了最大限度(235)')
+            return;
+        }
+        var mid = (num-1)/2+1;
+
+        for(var i=0;i<num;i++){
+            console.log(row(mid,i))
+//                var id = '#tr'+i;
+//                for(var j=0;j<num;j++){
+//                    console.log(row(mid,i)[j])
+//                    $(id).children().eq(j).html(row(mid,i)[j]);
+//
+            $('#result').append('<p>'+row(mid,i)+'</p>')
+//                }
+        }
+
+        //菱形算法
+        function row(mid,rowNum){
+//                var final = [];
+            var final;
+            if(rowNum<mid){
+                var space = '';
+                for(var i=0;i<mid-rowNum-1;i++){
+                    space += '&ensp;';
+                }
+                var star = '';
+                for(var i=0;i<2*rowNum+1;i++){
+                    star += '*';
+                }
+//                    final.push(space+star+space);
+                final = space+star+space;
+                return final;
+            }
+            if(rowNum >= mid){
+                rowNum = num-1-rowNum
+                var space = '';
+                for(var i=0;i<mid-rowNum-1;i++){
+                    space += '&ensp;';
+                }
+                var star = '';
+                for(var i=0;i<2*rowNum+1;i++){
+                    star += '*';
+                }
+//                    final.push(space+star+space);
+                final = space+star+space;
+                return final;
+            }
+        }
+    }
+    //        function makeTable(num){
+    //            for(var i=0;i<num;i++){
+    //                $('#result').append('<tr id="tr'+i+'"></tr>');
+    //                for(var j=0;j<num;j++){
+    //                    var id = '#tr'+i;
+    //                    $(id).append('<td></td>')
+    //                }
+    //            }
+    //        }
+
+</script>
+</html>

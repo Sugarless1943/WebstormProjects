@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三角递增</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+    <style>
+        li{
+            list-style-type: none;
+        }
+        #num:focus{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<h1>triangle</h1>
+<input type="text" style="border:0px;border-bottom: 1px solid black" id="num">
+<button onclick="start();">start</button><br/>
+<div id="" style="margin-top: 15px">
+    <span>运行结果：</span><br/>
+    <table></table>
+</div>
+</body>
+<script>
+    function start(){
+        $('table').children().remove();
+        var num = document.getElementById('num').value;
+        var start = 1;
+        var arr = [];
+        var changNum = beginNum(num);
+        for(var i=0;i<num;i++){
+            start += parseInt(changNum[i]);
+            arr.push(start);
+        }
+        //每一行初始值的方法
+        function beginNum(num){
+            var arr = []
+            arr.push(0);
+            for(var i=num;i>1;i--){
+                arr.push(i)
+            }
+            return arr;
+        }
+
+        //show arr
+//        console.log(arr);
+
+        //生成横行的递增数组
+        var addArr = [];
+        var addStart = 1
+        for(var i=1;i<num;i++){
+            addStart = i;
+            addArr.push(addStart);
+        }
+
+        //给起点和行数，输出一个数组
+        function make(start,j){
+            var rowArr =[];
+            rowArr.push(start);
+            var thisNum=start;
+            for(var i=0;i<j;i++){
+//                console.log(addArr[num-j+i-1]);
+                thisNum -= addArr[num-j+i-1]
+                rowArr.push(thisNum);
+            }
+            return rowArr;
+        }
+        var ul = document.getElementById('result');
+        for(var i=0;i<num;i++){
+            $('table').append('<tr id="tr'+i+'"></tr>')
+        }
+        for(var i=0;i<num;i++){
+            if(i==0){
+//                console.log(' 1')
+                $('#tr0').append('<td>1</td>')
+            }else{
+                var thisArr = make(arr[i],i);
+                for(var j=0;j<thisArr.length;j++){
+                    var id = '#tr'+i
+                    $(id).append('<td></td>')
+                    $(id).children().eq(j).html(thisArr[j])
+                }
+            }
+        }
+    }
+</script>
+</html>
