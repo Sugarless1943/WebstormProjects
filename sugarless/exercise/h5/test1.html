@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+    <style>
+        #menu th{
+            border:1px solid #000;
+        }
+        table{
+            text-align: center;
+            margin: 0 auto;
+        }
+        div{
+            width:100%;
+        }
+        #content{
+            border:1px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="text-align:center">商品清单</h2>
+        <table id="menu" border="1" cellspacing="0" cellpadding="5"/>
+            <thead>
+                <tr>
+                    <th >序号</th>
+                    <th style="width:200px">名称</th>
+                    <th style="width:100px">单价</th>
+                    <th style="width:200px">操作</th>
+                </tr>
+            </thead>
+            <tbody id="menuBody"></tbody>
+        </table>
+        <table id="content"></table>
+    </div>
+
+</body>
+<script>
+    //插入菜单行
+    var line = 5;
+    for(var i=0;i<line;i++){
+        $('#menuBody').append('<tr><td value="'+i+'">'+(i+1)+'</td><td class="product"></td><td class="price"></td><td></td></tr>')
+    }
+//    console.log($('#menuBody').children())
+    //名称组
+    var obj = [
+        {name:'鼠标',price:'50'},
+        {name:'键盘',price:'80'},
+        {name:'耳机',price:'100'},
+        {name:'手表',price:'70'},
+        {name:'相机',price:'200'},
+        ]
+
+    var addThis = '<button class="addThis">添加到购物车</button>'
+    for(var i=0;i<obj.length;i++){
+        var tdChild = 'td[value='+i+']'
+        $(tdChild).next().html(obj[i].name);
+        $(tdChild).next().next().html(obj[i].price);
+        $(tdChild).next().next().next().html(addThis);
+    }
+    $('.addThis').click(function(){
+        console.log($(this).parents('tr').find('.price').text())
+    })
+</script>
+</html>
