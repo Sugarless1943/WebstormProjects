@@ -7,5 +7,4 @@ app.controller('loginCtrl', function($scope) {
     $scope.time = date;
     var hours = date.getHours();
     var minute = date.getMinutes();
-    $scope.test = 111;
 });
