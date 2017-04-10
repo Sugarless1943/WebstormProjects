@@ -5,28 +5,28 @@
     <title>Title</title>
     <script src="../jquery-3.2.0.min.js"></script>
     <style>
-        #menu th{
+        #menu,#content th {
             border:1px solid #000;
         }
-        table{
+        table {
             text-align: center;
             margin: 0 auto;
         }
-        div{
+        div {
             width:100%;
         }
-        #content{
-            border:1px;
+        h2 {
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div>
-        <h2 style="text-align:center">商品清单</h2>
+        <h2>商品清单</h2>
         <table id="menu" border="1" cellspacing="0" cellpadding="5"/>
             <thead>
                 <tr>
-                    <th >序号</th>
+                    <th>序号</th>
                     <th style="width:200px">名称</th>
                     <th style="width:100px">单价</th>
                     <th style="width:200px">操作</th>
@@ -34,7 +34,19 @@
             </thead>
             <tbody id="menuBody"></tbody>
         </table>
-        <table id="content"></table>
+        <h2>购物清单</h2>
+        <table id="content" border="1" cellspacing="0" cellpadding="5"/>
+            <thead>
+                <tr>
+                   <th>序号</th>
+                   <th style="width:200px">名称</th>
+                   <th style="width:100px">数量</th>
+                   <th style="width:100px">总计</th>
+                   <th style="width:100px">操作</th>
+                </tr>
+            </thead>
+            <tbody id="listBody"></tbody>
+        </table>
     </div>
 
 </body>
@@ -42,7 +54,7 @@
     //插入菜单行
     var line = 5;
     for(var i=0;i<line;i++){
-        $('#menuBody').append('<tr><td value="'+i+'">'+(i+1)+'</td><td class="product"></td><td class="price"></td><td></td></tr>')
+        $('#menuBody').append('<tr><td value="'+i+'">'+(i+1)+'</td><td class="product"></td><td class="price"></td><td><button class="addThis">添加到购物车</button></td></tr>')
     }
 //    console.log($('#menuBody').children())
     //名称组
@@ -54,15 +66,22 @@
         {name:'相机',price:'200'},
         ]
 
-    var addThis = '<button class="addThis">添加到购物车</button>'
+//    var addThis = ''
     for(var i=0;i<obj.length;i++){
         var tdChild = 'td[value='+i+']'
         $(tdChild).next().html(obj[i].name);
         $(tdChild).next().next().html(obj[i].price);
-        $(tdChild).next().next().next().html(addThis);
+//        $(tdChild).next().next().next().html(addThis);
     }
     $('.addThis').click(function(){
-        console.log($(this).parents('tr').find('.price').text())
+//        console.log($(this).parents('tr').find('.price').text())
+        var num = 1;
+        var arr = [];
+        $('#listBody').append('<tr><td>'+num+'</td><td></td><td></td><td></td><td><button class="del">删除</button></td></tr>')
+        num++;
+    })
+    $('.del').click(function(){
+        console.log(1)
     })
 </script>
 </html>
