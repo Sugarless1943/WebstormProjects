@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./vakata-jstree-a6a0d0d/dist/themes/default/style.min.css">
+
+</head>
+<body>
+
+    <div id="jstree">
+        <!-- in this example the tree is populated from inline HTML -->
+        <ul>
+            <li>Root node 1
+                <ul>
+                    <li id="child_node_1">Child node 1</li>
+                    <li>Child node 2</li>
+                </ul>
+            </li>
+            <li>Root node 2</li>
+        </ul>
+    </div>
+    <button>demo button</button>
+
+<script src="./vakata-jstree-a6a0d0d/jquery-3.2.0.min.js"></script>
+<script src="./vakata-jstree-a6a0d0d/dist/jstree.min.js"></script>
+
+
+    <script>
+        $(function () {
+            // 6 create an instance when the DOM is ready
+            $('#jstree').jstree({
+                "core" : {
+                    "themes" : {
+                        "variant" : "large"
+                    }
+                },
+                "plugins" : [ "wholerow", "checkbox" ]
+            });
+            // 7 bind to events triggered on the tree
+            $('#jstree').on("changed.jstree", function (e, data) {
+                console.log(data.selected);
+            });
+            // 8 interact with the tree - either way is OK
+            $('button').on('click', function () {
+                $('#jstree').jstree(true).select_node('child_node_1');
+                $('#jstree').jstree('select_node', 'child_node_1');
+                $.jstree.reference('#jstree').select_node('child_node_1');
+            });
+        });
+    </script>
+</body>
+</html>

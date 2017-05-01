@@ -1,11 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d13f097-529b-4dab-acd4-a56068068090" name="Default" comment="11">
+    <list default="true" id="7d13f097-529b-4dab-acd4-a56068068090" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaScript30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default-dark/32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default-dark/40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default-dark/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default/32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default/40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default-dark/32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default-dark/40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default-dark/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default/32px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default/40px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/desktop/.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/desktop/desktop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/desktop/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/mobile/.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/mobile/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/screenshots/mobile/mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/JavaScript30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/exercise/h5/test3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/exercise/h5/test4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/exercise/h5/test5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/LICENSE-MIT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/demo/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/demo/basic/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/demo/basic/root.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/jstree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/jstree.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default-dark/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default-dark/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/dist/themes/default/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/jquery-3.2.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/jstree.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.changed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.conditionalselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.contextmenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.dnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.massload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.unique.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/jstree.wholerow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default-dark/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default-dark/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/default/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/themes/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/src/vakata-jstree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/unit/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/unit/libs/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/unit/libs/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/unit/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/desktop/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/test/visual/mobile/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/prison/css/login.css" afterPath="$PROJECT_DIR$/work/prison/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/prison/html/login.html" afterPath="$PROJECT_DIR$/work/prison/html/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/prison/js/login.js" afterPath="$PROJECT_DIR$/work/prison/js/login.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,46 +92,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test1.html">
+      <file leaf-file-name="tree.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sugarless/text/tree.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-3.2.0.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sugarless/exercise/jquery-3.2.0.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
-              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -82,9 +129,13 @@
       <list>
         <option value="$PROJECT_DIR$/sugarless/exercise/math/test2.html" />
         <option value="$PROJECT_DIR$/sugarless/exercise/h5/test2.html" />
-        <option value="$PROJECT_DIR$/sugarless/exercise/h5/test1.html" />
         <option value="$PROJECT_DIR$/work/prison/js/login.js" />
         <option value="$PROJECT_DIR$/work/prison/html/login.html" />
+        <option value="$PROJECT_DIR$/sugarless/exercise/h5/test1.html" />
+        <option value="$PROJECT_DIR$/sugarless/exercise/h5/test3.html" />
+        <option value="$PROJECT_DIR$/sugarless/exercise/h5/test4.html" />
+        <option value="$PROJECT_DIR$/sugarless/exercise/h5/test5.html" />
+        <option value="$PROJECT_DIR$/sugarless/text/tree.html" />
       </list>
     </option>
   </component>
@@ -95,9 +146,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,12 +179,62 @@
               <option name="myItemId" value="WebstormProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="work" />
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prison" />
+              <option name="myItemId" value="sugarless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sugarless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="text" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vakata-jstree-a6a0d0d" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebstormProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sugarless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -154,6 +254,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -166,9 +267,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sugarless/exercise" />
+      <recent name="$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d" />
+      <recent name="$PROJECT_DIR$/sugarless/text" />
       <recent name="$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js" />
       <recent name="$PROJECT_DIR$/work/prison" />
-      <recent name="$PROJECT_DIR$/work" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +371,17 @@
       <workItem from="1491483349299" duration="3763000" />
       <workItem from="1491702974398" duration="406000" />
       <workItem from="1491704022115" duration="3369000" />
-      <workItem from="1491712283206" duration="246000" />
+      <workItem from="1491712283206" duration="813000" />
+      <workItem from="1491836240147" duration="1900000" />
+      <workItem from="1491963580902" duration="370000" />
+      <workItem from="1492070635347" duration="3000" />
+      <workItem from="1492338855561" duration="84000" />
+      <workItem from="1492524325308" duration="593000" />
+      <workItem from="1492565933659" duration="899000" />
+      <workItem from="1492585879521" duration="566000" />
+      <workItem from="1492671010343" duration="795000" />
+      <workItem from="1493360535940" duration="1475000" />
+      <workItem from="1493647838115" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="编码格式修改">
       <created>1490972099459</created>
@@ -298,16 +411,30 @@
       <option name="project" value="LOCAL" />
       <updated>1491712318981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="删除项目">
+      <created>1491830161014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491830161014</updated>
+    </task>
+    <task id="LOCAL-00006" summary="shop">
+      <created>1491838189097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1491838189097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13584000" />
+    <option name="totallyTimeSpent" value="20843000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="820" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25069445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -336,18 +463,26 @@
     <MESSAGE value="编码格式修改" />
     <MESSAGE value="监狱登录页" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="删除项目" />
+    <MESSAGE value="shop" />
+    <option name="LAST_COMMIT_MESSAGE" value="shop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -355,44 +490,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/jquery-3.2.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="2214">
+          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -400,15 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,28 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -453,15 +525,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html">
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="1647">
+          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -469,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +546,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html" />
+    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/jquery-3.2.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html" />
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -485,12 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,12 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,7 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,12 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,15 +685,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/npm.js" />
+    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/jquery-3.2.0.min.js" />
+    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/work2/prison/html/login.html" />
+    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html" />
     <entry file="file://$PROJECT_DIR$/sugarless/exercise/math/test1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -596,7 +704,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="50" lean-forward="false" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -604,56 +718,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test1.html">
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="51" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/npm.js">
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/h5/test5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="101" lean-forward="false" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sugarless/text/vakata-jstree-a6a0d0d/jquery-3.2.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/bootstrap-3.3.7/js/jquery-3.2.0.min.js">
+    <entry file="file://$PROJECT_DIR$/sugarless/text/tree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="972">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/prison/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work2/prison/html/login.html">
+    <entry file="file://$PROJECT_DIR$/sugarless/exercise/jquery-3.2.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
