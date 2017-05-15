@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+<style>
+    #parent > div {
+        width: 100px;
+        height: 100px;
+        background-color: #f00;
+        margin: 10px;
+        border: 1px solid #ccc;
+    }
+</style>
+<body>
+    <div id="parent">
+        <div id="test">11111</div>
+        <div>2222</div>
+        <div>333</div>
+        <div>34444</div>
+        <div>4444</div>
+    </div>
+</body>
+<script>
+    $('#test:parent').css('background','#0f0')
+</script>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+<style>
+    body {
+        background: #262834;
+        color: #fff;
+    }
+    #div_maskContainer {
+        /*display: none;*/
+    }
+    /*蒙版样式*/
+    #div_Mask{
+        z-index:1000;
+        filter:alpha(opacity=40);
+        position: absolute;
+        left:0px;
+        top:0px;
+        background-color: #666;
+    }
+    /*显示信息样式*/
+    #div_loading{
+        width:200px;
+        position: absolute;
+        border: 1px outset inherit;
+        border-radius: 15px;
+        padding: 40px;
+        text-align: center;
+        background-color: #262834;
+        z-index: 10000;
+        filter:alpha(opacity=100);!important
+    }
+    #div_loading img {
+        float: left;
+    }
+    #div_loading span {
+        margin-left: 10px;
+        float: left;
+        height: 34px;
+        line-height: 34px;
+    }
+</style>
+<body>
+    <!--<div id="div_maskContainer">-->
+
+    <!--</div>-->
+    <p>helloWorld!</p>
+    <button onclick="test();">test</button>
+</body>
+<script>
+    /**
+     蒙版信息控件
+     用法：
+     1.yjhhLightOn()   //显示等待gif
+     2.yjhhLightOff()  //隐藏蒙层
+     3.yjhhLightLoad(time)  //传入等待时间
+     */
+    var loadMsg;
+    function yjhhLightOn(){
+        var html = '<span id="lightMsg">数据加载中,请稍等</span>';
+        var loader=$("#div_maskContainer");
+        if(loader.length==0){
+            loader=$("<div id='div_maskContainer'><div id='div_Mask' ></div><div id='div_loading' ></div></div>");
+            $("body").append(loader);
+        }
+        self.loader=loader;
+        var w=$(window).width();
+        var h=$(window).height();
+        var divMask=$("#div_Mask");
+        divMask.css("top",0).css("left",0).css("width",w).css("height",h);
+        var tipDiv=$("#div_loading");
+        if(html==undefined)
+            html="";
+        tipDiv.html(html);
+        loader.show();
+        var x=(w-tipDiv.width())/2;
+        var y=(h-tipDiv.height())/2;
+        tipDiv.css("left",x);
+        tipDiv.css("top",y);
+        var num = 0;
+        loadMsg = setInterval(function(){
+            if(num%3 == 0){
+                $('#lightMsg').html('数据加载中,请稍等.')
+                num ++;
+                return;
+            }
+            if(num%3 == 1){
+                $('#lightMsg').html('数据加载中,请稍等..')
+                num ++;
+                return;
+            }
+            if(num%3 == 2){
+                $('#lightMsg').html('数据加载中,请稍等...')
+                num ++;
+                return;
+            }
+        },1000)
+    }
+    function yjhhLightOff(){
+        var loader=$("#div_maskContainer");
+        if(loader.length==0) return ;
+        loader.remove();
+        clearTimeout(loadMsg);
+    }
+    function yjhhLightLoad(time){
+        var loader = $("#div_maskContainer");
+        if(loader.length==0) {
+            yjhhLightOn();
+        }
+        else{
+            var tipDiv = $("#div_loading");
+            tipDiv.html(html);
+        }
+        if(time==undefined) time=3000;
+        window.setTimeout(function(){
+            yjhhLightOff()
+        },time);
+    }
+
+    function test(){
+//        yjhhLightLoad(10000)
+        yjhhLightOn();
+    }
+</script>
+</html>

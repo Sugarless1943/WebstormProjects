@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+<body>
+<div>
+    <input type="checkbox"><lablel>测试吧</lablel>
+    <input type="checkbox">
+</div>
+</body>
+<script>
+    $('input[type="checkbox"]').click(function(){
+        if($('input[type="checkbox"]').eq(0).is(':checked')){
+            console.log(1)
+        }
+    })
+</script>
+</html>

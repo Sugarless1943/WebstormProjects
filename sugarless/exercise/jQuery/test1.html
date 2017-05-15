@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .sidebar li {
+        list-style-type: none;
+    }
+    .level2 ul{
+        padding: 0px;
+    }
+    .level2 {
+        color: #ccc;
+    }
+    li {
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+</style>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li class="level1">衣服</li>
+            <li class="level2">
+                <ul>
+                    <li>T-shirt</li>
+                    <li>毛衣</li>
+                    <li>外套</li>
+                </ul>
+            </li>
+            <li class="level1">裤子</li>
+            <li class="level2">
+                <ul>
+                    <li>休闲裤</li>
+                    <li>运动裤</li>
+                </ul>
+            </li>
+            <li class="level1">鞋</li>
+            <li class="level2">
+                <ul>
+                    <li>拖鞋</li>
+                    <li>帆布鞋</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="../jquery-3.2.0.min.js"></script>
+
+<script>
+
+    $('.level2').hide();
+    $('.level1').click(function(){
+        $(this).next().slideToggle().siblings('.level2').hide();
+    })
+    $('.level2 li').click(function(){
+        console.log($(this).html())
+    })
+
+</script>
+</html>
