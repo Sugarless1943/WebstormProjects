@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格获取</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+    <style>
+        body > div {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        td,th {
+            width: 100px;
+        }
+        .btn {
+            height: 30px;
+            padding: 0 10px;
+        }
+        .btn button {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="btn">
+        <button onclick="add();">新增</button>
+    </div>
+    <div>
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>序号</th>
+                    <th>名字</th>
+                    <th>性别</th>
+                    <th>年龄</th>
+                    <th>爱好</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</div>
+
+</body>
+<script>
+    var gender = [
+        {name:'男',value:'man'},
+        {name:'女',value:'woman'}
+        ]
+    var like = [
+        {name:'跑步',value:'run'},
+        {name:'阅读',value:'read'},
+        {name:'听音乐',value:'music'}
+    ]
+    function add(){
+        $('tbody').append('<tr>' +
+            '<td>'+ num() +'</td>' +
+            '<td></td>' +
+            '<td></td>' +
+            '<td></td>' +
+            '<td></td>' +
+            '<td><button onclick="remove()">删除</button></td>' +
+            '</tr>')
+    }
+    function num(){
+        var num = $('tbody').children().length;
+        return ++num;
+    }
+    function remove(){
+        $(this).closest('tr').remove()
+    }
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全选jQuery是坑</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+<body>
+<table>
+    <tr>
+        <td><input name="cheAll" type="checkbox"></td>
+        <td></td>
+    </tr>
+</table>
+<button onclick="against();">那么要不要试试反选</button>
+</body>
+<script>
+    for(var i=0;i<10;i++){
+        $('table').append('<tr>' +
+            '<td><input name="che" type="checkbox"></td>' +
+            '<td>obj'+ i +'</td>'+
+            '</tr>')
+    }
+
+
+    $('[name="cheAll"]').click(function(){
+        var che = $('input[name="che"]')
+        if(this.checked){
+            for(var i=0;i<che.length;i++){
+                che[i].checked = true;
+            }
+        }else{
+            for(var i=0;i<che.length;i++){
+                che[i].checked = false;
+            }
+        }
+    })
+
+    $('[name="che"]').click(function(){
+        var che = $('input[name="che"]')
+        var flag = true;
+        for(var i=0;i<che.length;i++){
+            if(!che[i].checked){
+                flag = false;
+            }
+        }
+        $('[name="cheAll"]:checkbox')[0].checked = flag;
+    })
+
+    function against(){
+        var che = $('input[name="che"]');
+        for(var i=0;i<che.length;i++){
+            if(che[i].checked){
+                che[i].checked = false;
+                continue;
+            }
+            if(!che[i].checked){
+                che[i].checked = true;
+                continue;
+            }
+        }
+    }
+</script>
+</html>
