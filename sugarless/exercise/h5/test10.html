@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>table相互传值</title>
     <script src="../jquery-3.2.0.min.js"></script>
     <style>
         table {
@@ -58,71 +58,16 @@
     </table>
 </body>
 <script>
-//    var tb1Arr = [];
-//    var tb2Arr = [];
-//   $('#tb1 tbody tr').dblclick(function(){
-////       $(this).appendTo($('#tb2 tbody'));
-////       $('#tb2 tbody tr').dblclick(function(){
-////           $(this).appendTo($('#tb1 tbody'));
-////       })
-////       console.log($(this).children('td'));
-//
-//       tb2Arr.push('<tr><td>'+$(this).children('td').eq(0).text()+'</td><td>'+$(this).children('td').eq(1).text()+'</td></tr>')
-//
-//       for(var i=0;i<tb2Arr.length;i++){
-//           $('#tb2 tbody').append(tb2Arr[i]);
-//           tb2Arr.splice(i,1);
-//       }
-//       $(this).remove();
-//
-//
-//       $('#tb2 tbody tr').dblclick(function(){
-//           tb1Arr.push('<tr><td>'+$(this).children('td').eq(0).text()+'</td><td>'+$(this).children('td').eq(1).text()+'</td></tr>')
-//
-//           for(var i=0;i<tb1Arr.length;i++){
-//               $('#tb1 tbody').append(tb1Arr[i]);
-//               tb1Arr.splice(i,1);
-//           }
-//           $(this).remove();
-//       })
-//   })
-//
-//    $('#tb1 tbody tr').dblclick(function(){
-//        $(this).appendTo($('#tb2 tbody'));
-//        console.log($('#tb2'))
-//        changeTb2();
-//    })
-//
-//    function changeTb2(){
-//        $('#tb2 tbody tr').dblclick(function(){
-//            $(this).appendTo($('#tb1 tbody'));
-//        })
-//    }
 
+    $('#tb1').hover(function(){
+        $('#tb1 tbody tr').dblclick(function(){
+            $(this).appendTo('#tb2 tbody');
+        })
+    })
 
-//    var arr1 = [];
-//    var arr2 = [];
-
-//    var tb1 = $('#tb1 tbody tr')
-//    for(var i=0;i<tb1.length;i++){
-//        arr1.push({
-//            cname:tb1.eq(i).children('td').eq(0).text(),
-//            ename:tb1.eq(i).children('td').eq(1).text()
-//        })
-//    }
-//    console.log(arr1)
-//    $('#tb1 tbody tr').dblclick(function(){
-//
-//    })
-
-
-    $('#tb1 tbody tr').click(function(){
-        $(this).appendTo('#tb2 tbody');
-        console.log(1)
-        $('#tb2 tbody tr').click(function(){
+    $('#tb2').hover(function(){
+        $('#tb2 tbody tr').dblclick(function(){
             $(this).appendTo('#tb1 tbody');
-//            return false;
-            console.log(2)
         })
     })
 
