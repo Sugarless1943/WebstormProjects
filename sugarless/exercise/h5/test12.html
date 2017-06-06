@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>展开表格</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+    <style>
+        table td {
+            width: 30px
+        }
+        table {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" cellpadding="2" cellspacing="0">
+        <tr class="parent1">
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+        </tr>
+        <tr class="children1">
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr class="children1">
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr class="children1">
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr class="parent2">
+            <td>b</td>
+            <td>b</td>
+            <td>b</td>
+            <td>b</td>
+            <td>b</td>
+        </tr>
+        <tr class="children2">
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr class="children2">
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr class="children2">
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+        <tr class="parent3">
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+        </tr>
+        <tr class="children3">
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr class="children3">
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr class="children3">
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr class="children3">
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+
+<script>
+    $('table tr[class^="children"]').hide()
+    $('table tr[class^="parent"]').click(function(){
+        var thisClass = $(this).attr('class');
+        var num = thisClass.substr(thisClass.length-1,1)
+        console.log(num);
+        $('table tr[class="children'+num+'"]').slideToggle();
+    })
+</script>
+</html>
