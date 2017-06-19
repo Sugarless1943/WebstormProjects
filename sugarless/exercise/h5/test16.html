@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    function person(name,age,sex){
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.say = new function(){
+            console.log(name + " say:I'm " + age + " years old" )
+        }
+    }
+
+    var p1 = new person('yefan','16','男')
+    p1.say();
+</script>
+</html>

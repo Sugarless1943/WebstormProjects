@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入时触发的事件</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+<body>
+    <input type="text" regex="num">
+</body>
+<script>
+    $('input').bind('keyup',function(){
+        if($('input').attr('regex') == 'num'){
+            var num = /^[0-9]*$/
+            if(num.test($('input').val())){
+                $('input').next().siblings().remove()
+            }else{
+                $('input').after('<span>wtf</span>')
+            }
+        }
+    })
+
+
+</script>
+</html>
