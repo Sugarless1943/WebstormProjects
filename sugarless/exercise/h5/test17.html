@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.2.0.min.js"></script>
+    <style>
+        #navTitle ul {
+            padding: 0px;
+            list-style: none;
+        }
+        #navTitle ul li {
+            float: left;
+            margin: 0 10px;
+        }
+        #navBody {
+            clear: both;
+        }
+        #navBody>div {
+            border: 1px solid red;
+            width: 250px;
+            height: 200px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="navTitle">
+            <ul>
+                <li>按钮1</li>
+                <li>按钮2</li>
+                <li>按钮3</li>
+                <li>按钮4</li>
+            </ul>
+        </div>
+        <div id="navBody">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </div>
+
+</body>
+<script>
+    $('#navBody>div').eq(0).show();
+    $('#navTitle ul li').click(function(){
+        //显示的上一个index
+        var beforeIndex = -1;
+        $('#navBody>div').each(function(){
+            if($(this).css('display') == 'block'){
+                beforeIndex = $(this).index();
+            }
+        })
+
+        var index = $(this).index();
+        if(index>beforeIndex){  //右滑动
+            $('#navBody>div').eq(beforeIndex).animate({left:$('#navBody').width()},200)
+        }
+        if(index<beforeIndex){  //左滑动
+
+        }
+
+//        $('#navBody>div').eq($(this).index()).show().siblings().hide();
+
+        //离屏幕左侧的距离
+        var left = $('#navBody').offset().left;
+
+
+    })
+</script>
+</html>

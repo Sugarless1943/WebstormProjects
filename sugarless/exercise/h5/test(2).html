@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .eTitle ul{
+            list-style: none;
+            padding: 0;
+            font-size: 12px;
+        }
+        .eTitle ul li {
+            float: left;
+            cursor: pointer;
+            width: 25%;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+        }
+        #borderGo {
+            width: 25%;
+            height: 2px;
+            background: #337AB7;
+            position: relative;top: 16px;
+        }
+        .eBody{
+            width: 100%;
+            height: 85%;
+            border: 1px solid red;
+            clear: both;
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="../jquery-3.2.0.min.js"></script>
+</head>
+
+<body>
+    <div style="width: 568px;height: 220px;border: 1px solid red">
+        <div class="eTitle">
+            <ul>
+                <li>计分考核</li>
+                <li>分级处遇</li>
+                <li>劳动及表现</li>
+                <li>培训及表现</li>
+            </ul>
+            <div id="borderGo"></div>
+        </div>
+        <div class="eBody">
+            <div style="background-color: #0044cc;height: 100%">
+               1
+            </div>
+            <div style="background-color: #f4f4f4">
+               2
+            </div>
+            <div style="background-color: #d44950">
+               3
+            </div>
+            <div style="background-color: #28B779">
+               4
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.eTitle li').click(function(){
+        var eBodyOffset = $('.eBody').offset();
+        $('.eBody>div').each(function(){
+            $(this).css({'position':'absolit',left:eBodyOffset.left,top:eBodyOffset.top});
+            if($(this).css('display') == 'block'){
+                beforeIndex = $(this).index();
+            }
+        })
+        console.log(beforeIndex);
+
+
+        var offsetLeft = $(this).offset().left;
+        var index = $(this).css('color','#337AB7').siblings().css('color','#000').end().index();
+        $('#borderGo').animate({left:offsetLeft-$('.eTitle').offset().left},200);
+
+
+        var width = $('.eBody').width();
+        var height = $('.eBody').height();
+        if(index > beforeIndex){   //左移
+            $('.eBody>div').eq(beforeIndex).show().css({width: width,height: height,position: 'absolute'}).animate({left: '-='+width+'px',width: '0px'},200,function(){
+                $('.eBody>div').eq(beforeIndex).hide();
+            });
+            $('.eBody>div').eq(index).show().css({width: '0px',height: height,position: 'absolute',left:width+eBodyOffset.left}).animate({left: '-='+width+'px',width: width},200);
+        }else if(index < beforeIndex){   //右移
+            $('.eBody>div').eq(beforeIndex).show().css({width: width,height: height,position: 'absolute'}).animate({left: '+='+width+'px',width: '0px'},200,function(){
+                $('.eBody>div').eq(beforeIndex).hide();
+            });
+            $('.eBody>div').eq(index).show().css({width: width,height: height,position: 'absolute',left:-parseInt(width-eBodyOffset.left)}).animate({left: '+='+width+'px',width: width},200);
+        }
+
+    });
+    $('.eBody>div').eq(0).show().siblings().hide();
+</script>
+</html>
