@@ -1,0 +1,46 @@
+.body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border: 1px solid red;
+    height: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#headerNav {
+    float: right;
+}
+
+#headerNav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 20px;
+    font-size: 20px;
+}
+
+#headerNav ul li {
+    float: left;
+    margin: 5px;
+}
+
+#sidebar {
+    width: 20%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 600px;
+    float: left;
+}
+
+#content {
+    width: 80%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 600px;
+    float: right;
+}
