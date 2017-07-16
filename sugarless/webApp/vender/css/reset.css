@@ -27,6 +27,7 @@
 #headerNav ul li {
     float: left;
     margin: 5px;
+    cursor: pointer;
 }
 
 #sidebar {
@@ -37,10 +38,18 @@
     float: left;
 }
 
+#sidebar ul {
+    list-style: none;
+}
+#sidebar ul li {
+    cursor: pointer;
+}
+
 #content {
     width: 80%;
     border: 1px solid red;
     box-sizing: border-box;
     height: 600px;
     float: right;
+    padding: 10px;
 }
